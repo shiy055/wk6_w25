@@ -39,3 +39,11 @@ img:hover{
    }
 
 }
+
+@media (prefers-reduced-motion) {
+   :hover {
+      transition: none;
+   }
+
+}
+
